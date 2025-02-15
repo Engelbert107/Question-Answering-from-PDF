@@ -2,7 +2,7 @@ import re
 import io
 import fitz  # PyMuPDF
 import pdfplumber 
-import pytesseract # type: ignore
+import pytesseract 
 from PIL import Image # type: ignore
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
 
