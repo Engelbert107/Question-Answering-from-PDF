@@ -3,7 +3,6 @@ import io
 import fitz  # PyMuPDF
 import pdfplumber 
 import pytesseract 
-from PIL import Image # type: ignore
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
 
 
